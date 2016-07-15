@@ -1,0 +1,15 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="btn-group pull-right">
+            <button class="btn btn-default" ng-if="isPagination" ng-disabled="!isPrevActive" ng-click="previousClick()">Previous</button>
+            <button class="btn btn-default" ng-if="isPagination" ng-disabled="!isNextActive" ng-click="nextClick()">Next</button>
+        </div>
+    </div>
+    <div class="row">
+        <ul class="tiles">
+            <li ng-repeat="movie in movies">
+                <movie-button ui-sref="moviedetails({movieId: movie.id})" movie-scope='movie'></movie-button>
+            </li>
+        </ul>
+    </div>
+</div>

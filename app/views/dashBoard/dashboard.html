@@ -1,0 +1,9 @@
+<h1>Dashboard</h1>
+{{DashboardCtrl.configuration}}
+<button class="btn btn-default" ng-click='DashboardCtrl.getGenre()'>Call Genre list</button>
+<p>{{data}}</p>
+<div ng-controller="childController">
+	{{childData}}
+</div>
+
+<p markdown-to-html="DashboardCtrl.mymarkdown"></p>

@@ -1,0 +1,20 @@
+<h1>Movie Details</h1>
+<div class="progress">
+	<div class="progress-bar" aria-valuenow="{{MovieDetailsCtrl.movieDetails.vote_average}}" aria-valuemin="0" aria-valuemax="10" style="width: {{MovieDetailsCtrl.movieDetails.vote_average * 10}}%">
+		{{MovieDetailsCtrl.movieDetails.vote_average }} / 10
+	</div>
+</div>
+
+<p>{{MovieDetailsCtrl.movieDetails}}</p>
+
+<ul>
+	<li ng-repeat="genre in MovieDetailsCtrl.movieDetails.genres">
+		<button ui-sref="genres.movielist({genreId: genre.id})">{{genre.name}}</button>
+	</li>
+</ul>
+
+<ul>
+	<li ng-repeat="company in MovieDetailsCtrl.movieDetails.production_companies">
+		<button ui-sref="companydetails({companyId: company.id})">{{company.name}}</button>
+	</li>
+</ul>

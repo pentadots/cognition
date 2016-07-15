@@ -1,0 +1,7 @@
+.tiles {
+  list-style: none;
+  padding: 0; }
+  .tiles li {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 35px; }

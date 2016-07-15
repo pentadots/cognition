@@ -1,0 +1,35 @@
+{
+  "name": "MoviesDBCatalog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/swagata-git/MoviesDBCatalog",
+  "authors": [
+    "swagata"
+  ],
+  "description": "movie cat",
+  "main": "dist/index.html",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "movie"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "~1.5.0",
+    "angular-ui-router": "~0.2.18",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "jquery": "~2.2.1",
+    "restangular": "~1.5.2",
+    "ng-showdown": "^1.1.0",
+    "underscore": "^1.8.3",
+    "moment": "^2.14.1"
+  }
+}
