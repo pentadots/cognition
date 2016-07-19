@@ -33,6 +33,7 @@
     "gulp-server-livereload": "^1.7.1",
     "gulp-uglify": "^1.5.3",
     "gulp-usemin": "^0.3.21",
+    "gulp-util": "^3.0.7",
     "gulp-watch": "^4.3.5",
     "gulp-webserver": "^0.9.1"
   }

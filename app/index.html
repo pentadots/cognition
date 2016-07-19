@@ -1,11 +1,11 @@
 <!doctype html>
-<html ng-app="MovieApp">
+<html ng-app="Cognition">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Finder</title>
+    <title>Cognition</title>
     <!-- build:css styles/lib.css -->
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./bower_components/bootstrap/dist/css/bootstrap-theme.min.css" />
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <div movie-header></div>
+    <div app-header></div>
     <div ui-view>Main</div>
     <div >Footer</div>
 
@@ -38,20 +38,11 @@
     <!-- build:js1 scripts/app.js -->
     <script src="scripts/app.js"></script>
     <script src="scripts/app-constant.js"></script>
+    <script src="scripts/common/routing.provider.js"></script>
     <script src="scripts/app-routing.js"></script>
-    <script src="scripts/modules/dashboard/dashboard.controller.js"></script>
-    <script src="scripts/modules/genre/genre.controller.js"></script>
-    <script src="scripts/modules/genre/genreMovieList.controller.js"></script>
-    <script src="scripts/modules/movie/movieDetails.controller.js"></script>
-    <script src="scripts/modules/company/company.controller.js"></script>
-
-
-    <script src="scripts/common/rest.factory.js"></script>
-    <script src="scripts/common/moviesdb.service.js"></script>
-    
     <script src="scripts/modules/header/header.directive.js"></script>
-    <script src="scripts/common/directives/movie-button.directives.js"></script>
-    <script src="scripts/common/directives/movie-list.directives.js"></script>
+    <script src="scripts/modules/dashboard/dashboard.controller.js"></script>
+
     <!-- endbuild -->
 </body>
 

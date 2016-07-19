@@ -1,1 +1,1 @@
-var movie = angular.module("MovieApp", ['ui.router', 'restangular', 'ng-showdown']);
+var cognition = angular.module("Cognition", ['ui.router', 'restangular', 'ng-showdown']);

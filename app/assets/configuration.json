@@ -1,0 +1,10 @@
+{
+    "ds": {
+        "url": "/ds",
+        "templateUrl": "views/ds/ds.html"
+    },
+    "ds.linkedlist": {
+        "url": "/linkedlist",
+        "templateUrl": "views/ds/linkedlist/linkedlist.html"
+    }
+}

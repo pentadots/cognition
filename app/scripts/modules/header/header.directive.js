@@ -1,40 +1,23 @@
-var movie = angular.module("MovieApp");
+var cognition = angular.module("Cognition");
 
-// movie.controller('otherDirCtrl',['$scope', function($scope){
-// 	$scope.name = "other controller";
-// }]);
-// movie.directive("otherDirective", [function() {
-//     return {
-//         restrict: 'AE',
-//         controller: 'otherDirCtrl',
-//         link: function(){
-
-//         }
-//     };
-// }]);
-
-
-
-movie.directive("movieHeader", [function() {
-    var movieHeaderController = function($scope) {
+cognition.directive("appHeader", [function() {
+    var headerController = function($scope) {
 
     };
 
-    var movieHeaderLink = function(scope, element, attribute) {
+    var headerLink = function(scope, element, attribute) {
     	
     };
 
     return {
         restrict: 'AE',
         replace: 'true',
-        //require: 'otherDirCtrl',
-        //template: '<h3>Hello World!!</h3>',
         templateUrl: 'views/header/header.html',
         scope:{
 
         },
-        controller: movieHeaderController,
-        link: movieHeaderLink
+        controller: headerController,
+        link: headerLink
     };
 }]);
 
